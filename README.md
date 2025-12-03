@@ -1,79 +1,12 @@
-# 🤖 AmiBot — Your AI Assignment Buddy
+# React + Vite
 
-**AmiBot** is a personalized RAG (Retrieval-Augmented Generation) chatbot built to assist **Bennett University students** with their assignment-related questions.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-It combines advanced language modeling with a local document knowledge base to deliver accurate, contextual responses — making it easier for students to focus, understand, and complete academic tasks.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🔍 What It Does
+## Expanding the ESLint configuration
 
-- 📚 **Understands assignment questions**  
-- 📥 **Retrieves relevant content from internal academic documents**  
-- 💬 **Generates clear, context-aware answers**  
-- 🚀 **Available via a smooth and responsive chat interface**
-
----
-
-## 🧠 Tech Stack
-
-### Backend
-- **LangChain** – RAG pipeline orchestration
-- **ChromaDB** – Lightweight, local vector database for document storage
-- **Ollama** – Local LLM runtime (e.g. LLaMA, Mistral, etc.)
-- **FastAPI** – API layer
-
-### Frontend
-- **React** – SPA architecture
-- **Tailwind CSS** – Utility-first styling
-- **Vite** – Fast dev environment
-
----
-## ⚙️ Setup Instructions
-
-### 🛠 Backend
-
-1. **Install Python dependencies**
-
-```bash
-cd ragbot-backend
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-2. **Start Ollama with your preferred model**
-```bash
-ollama run llama3
-```
-
-3. **Run the backend API**
-```bash
-uvicorn app:app --reload
-```
-
-### 🎨 Frontend
-
-**Install frontend dependencies**
-
-```bash
-cd ragbot-frontend
-npm install
-```
-
-**Start the dev server**
-```bash
-npm run dev
-```
-
-## 👨‍🎓 Built For
-
-🎓 **Bennett University Students**  
-Helps simplify assignment work by giving AI-powered answers based on uploaded coursework and syllabi.
-
----
-
-## 🙋‍♂️ Author
-
-**Abhishek Rajput**  
-Developer & Student at Bennett University  
-[LinkedIn](https://www.linkedin.com/in/abhishek-rajput-304b2a320/) • [GitHub](https://github.com/akhhhh)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
