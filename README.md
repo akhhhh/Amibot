@@ -1,6 +1,6 @@
 # 🤖 AmiBot — Your AI Assignment Buddy
 
-**AmiBot** is a personalized RAG (Retrieval-Augmented Generation) chatbot built to assist **Amity University students** with their assignment-related questions.
+**AmiBot** is a personalized RAG (Retrieval-Augmented Generation) chatbot built to assist **Bennett University students** with their assignment-related questions.
 
 It combines advanced language modeling with a local document knowledge base to deliver accurate, contextual responses — making it easier for students to focus, understand, and complete academic tasks.
 
@@ -93,7 +93,7 @@ npm run dev
 
 ## 👨‍🎓 Built For
 
-🎓 **Amity University Students**  
+🎓 **Bennett University Students**  
 Helps simplify assignment work by giving AI-powered answers based on uploaded coursework and syllabi.
 
 ---
@@ -101,5 +101,5 @@ Helps simplify assignment work by giving AI-powered answers based on uploaded co
 ## 🙋‍♂️ Author
 
 **Kushagra Singh**  
-Developer & Student at Amity University  
+Developer & Student at Bennett University  
 [LinkedIn](https://www.linkedin.com/in/kushagra-singh-7288a4297/) • [GitHub](https://github.com/KushagraSingh1100)
