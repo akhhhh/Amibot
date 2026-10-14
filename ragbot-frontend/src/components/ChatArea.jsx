@@ -11,7 +11,7 @@ import { selectActiveSessionId } from "../store/chatSlice";
 const WELCOME_MESSAGE = {
   role: "ASSISTANT",
   content:
-    "Hello! I'm AmiBot, your assignment buddy from your own university, Amity. How can I assist you?",
+    "Hello! I'm AmiBot, your assignment buddy from your own university, Bennett. How can I assist you?",
 };
 
 const ChatArea = () => {
@@ -67,7 +67,7 @@ const ChatArea = () => {
           <h1 className="text-3xl font-semibold">Welcome to AmiBot</h1>
           <p>
             Ask me any question from your assignment and I'll answer them from
-            the amity notes only!
+            the Bennett notes only!
           </p>
         </div>
       )}
